@@ -13,8 +13,8 @@ body {
 
 main,
 footer {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 /* *************************************************************************************************************** */
@@ -46,21 +46,21 @@ footer {
 
 img {
   /* For size and appearance of image: */
-  height: 60%;
-  width: 50%;
-  border-radius: 15%;
+  height: 9.8rem;
+  width: 10rem;
+  border-radius: 2rem;
   box-shadow: -0.2rem 1.8rem 3.4rem rgba(0, 0, 0, 0.15);
   filter: brightness(110%);
   /* To center image: */
   display: block;
-  margin: 15% auto;
+  margin: 2.5rem auto;
 }
 
 /* Hero-content: */
 
 .hero-content-container {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .intro-content {
@@ -85,7 +85,7 @@ img {
 
 .intro-paragraph {
   font-size: 1.1rem;
-  margin-bottom: 60%;
+  margin-bottom: 7.5rem;
   color: #000000;
 }
 
@@ -94,11 +94,11 @@ img {
 .navigation {
   display: flex;
   justify-content: center;
-  gap: 10%;
+  gap: 1.8rem;
 }
 
 .btn {
-  padding: 3% 6%;
+  padding: 0.6rem 1.2rem;
   background-color: #360a2ba6;
   border: 1px solid #360a2b;
   border-radius: 5px;
@@ -118,8 +118,8 @@ img {
 
 .main-content-container {
   /* Space between sections */
-  margin-top: 30%;
-  margin-bottom: 20%;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
 
   /* Bottom section divider */
   border-bottom: 0.5px solid rgba(0, 0, 0, 0.147);
@@ -128,14 +128,14 @@ img {
 .main-heading {
   font-size: 1.4rem;
   text-align: center;
+  margin-bottom: 5rem;
 }
 
 .main-content {
   display: flex;
   flex-direction: column;
   gap: 4rem;
-  margin-top: 20%;
-  margin-bottom: 20%;
+  margin-bottom: 6rem;
 }
 
 .section-container {
@@ -174,11 +174,17 @@ li {
 } */
 
 /* *************************************************************************************************************** */
-.contact-section-container {
-  margin-top: 20%;
+.get-in-touch {
+  margin-top: 6rem;
 }
+
+.contact-section-container {
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+
 .contact-form-container {
-  margin-bottom: 25%;
+  margin-bottom: 4rem;
 }
 
 .form {
@@ -191,13 +197,14 @@ li {
   background-color: #f7d7cc42;
   border: 1px solid #360a2b;
   border-radius: 5px;
-  padding: 5% 10%;
+  padding: 2rem 2rem;
 }
 
 label {
   font-size: 0.9rem;
   font-weight: bold;
   line-height: 1.2;
+  margin-bottom: 0.2rem;
 }
 
 input,
@@ -205,19 +212,19 @@ select,
 option,
 textarea {
   display: block;
-  margin-bottom: 1rem;
-  margin-top: 0.4rem;
+  margin-bottom: 1.5rem;
   text-align: center;
   padding: 0.2rem 0.2rem;
   border: 1px solid #360a2b;
 }
 
 textarea {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .submit-btn {
-  padding: 3% 6%;
+  padding: 1rem 1rem;
+  font-size: 0.9rem;
   color: #faf9f6;
   background-color: #360a2ba6;
   border: 1px solid #360a2b;
@@ -239,7 +246,7 @@ input:focus:invalid {
 .contact-details-container {
   background-color: #360a2b8b;
   border-radius: 5px;
-  padding: 5% 10%;
+  padding: 1rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -259,18 +266,18 @@ input:focus:invalid {
 }
 
 .icon {
-  width: 24px;
-  height: 24px;
+  width: 2rem;
+  height: 2rem;
 }
 
 .contact-detail-email {
-  margin-top: 20%;
-  margin-bottom: 20%;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
   display: flex;
+  align-items: center;
   gap: 1.2rem;
 }
 
 .contact-detail-email p {
-  display: inline-block;
   font-size: 0.88rem;
 }
