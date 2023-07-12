@@ -25,10 +25,17 @@ footer {
 
   /* for background-image: */
   height: 100vh;
-  background: #360a2b url("/images/hero-background-image.jpg");
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.442),
+      rgba(255, 255, 255, 0.111)
+    ),
+    url("/images/hero-background-image.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom left;
-  background-size: cover;
+
+  /* Bottom section divider */
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.147);
 }
 
 /* Hero-Image: */
@@ -39,8 +46,9 @@ img {
   /* For size and appearance of image: */
   height: 50%;
   width: 40%;
-  border-radius: 10%;
-
+  border-radius: 15%;
+  box-shadow: -0.2rem 1.8rem 3.4rem rgba(0, 0, 0, 0.15);
+  filter: brightness(110%);
   /* To center image: */
   display: block;
   margin: 20% auto;
@@ -56,20 +64,25 @@ img {
 .intro-content {
   text-align: center;
 }
-
+.my-name {
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.308);
+  margin-bottom: 0.1rem;
+}
 .intro-content h1 {
   margin-bottom: 2px;
-  font-size: 1.8em;
+  font-size: 1.8rem;
 }
 
 .career-title {
-  font-size: 0.75em;
+  font-size: 0.8rem;
   font-weight: bold;
+  color: #360a2b;
 }
 
 .intro-paragraph {
-  margin-bottom: 25%;
-  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 30%;
+  margin-top: 5%;
 }
 
 /* Hero-navigation: */
@@ -80,22 +93,51 @@ img {
   gap: 10%;
 }
 
-button {
-  padding: 2% 4%;
+.btn {
+  padding: 3% 6%;
   background-color: #360a2bd3;
   border: 1px solid #360a2b;
   border-radius: 5px;
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.15);
 }
 
+/* !!!Style hover state */
+
 .navigation a {
-  font-size: 0.7em;
+  font-size: 0.7rem;
   font-weight: bold;
   text-decoration: none;
   color: white;
 }
 
 /* *************************************************************************************************************** */
+
+.main-content-container {
+  /* Space between sections */
+  margin-top: 20%;
+  margin-bottom: 20%;
+
+  /* Bottom section divider */
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.147);
+}
+
+.main-heading {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+
+.section-container {
+  border: 0.5px solid rgba(0, 0, 0, 0.147);
+  padding: 2rem;
+}
 
 /* footer {
   background-color: #360a2b;
