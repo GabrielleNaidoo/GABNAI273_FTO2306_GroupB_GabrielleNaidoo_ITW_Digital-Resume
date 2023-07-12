@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <!-- Add favicon -->
     <title>Digital Resume- Gabrielle Naidoo</title>
   </head>
   <body>
@@ -115,6 +116,47 @@
     <footer>
       <div class="contact-section-container" id="contact">
         <div class="contact-form-container">
+          <form class="form">
+            <label for="name"> Name:</label>
+            <input type="text" name="name" id="name" required />
+            <label for="email-address">Email-address:</label>
+            <input
+              type="email"
+              name="email-address"
+              id="email-address"
+              required
+            />
+            <label for="email-subject">Email Subject:</label>
+            <select name="_subject" id="email-subject" required>
+              <option value="I am interested in hiring you">
+                I am interested in hiring you
+              </option>
+              <option value="I would like to ask you a question">
+                I would like to ask you a question
+              </option>
+              <option
+                value="I would like to give you feedback on your digital resume"
+              >
+                I would like to give you feedback on your digital resume
+              </option>
+              <option value="other">
+                other: please add additional information in the text block below
+              </option>
+            </select>
+            <label for="additional-information">Additional Information:</label>
+            <textarea
+              name="additional-information"
+              id="additional-information"
+              rows="6"
+              cols="20"
+            ></textarea>
+            <input
+              type="submit"
+              value="SUBMIT"
+              name="submit"
+              class="submit-btn"
+            />
+          </form>
           <!-- Different sections of form -->
         </div>
         <div class="contact-details-container">
