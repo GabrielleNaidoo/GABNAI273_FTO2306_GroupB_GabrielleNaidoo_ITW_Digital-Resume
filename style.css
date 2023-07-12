@@ -16,6 +16,8 @@ footer {
   padding-right: 10%;
 }
 
+/* *************************************************************************************************************** */
+
 .hero-section {
   /* For layout: */
   display: flex;
@@ -29,34 +31,71 @@ footer {
   background-size: cover;
 }
 
+/* Hero-Image: */
 .hero-image-container {
 }
 
 img {
   /* For size and appearance of image: */
   height: 50%;
-  width: 50%;
-  border-radius: 100%;
+  width: 40%;
+  border-radius: 10%;
 
   /* To center image: */
   display: block;
   margin: 20% auto;
 }
 
+/* Hero-content: */
+
 .hero-content-container {
-  padding: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .intro-content {
   text-align: center;
-  font-size: 0.75em;
 }
+
+.intro-content h1 {
+  margin-bottom: 2px;
+  font-size: 1.8em;
+}
+
+.career-title {
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+.intro-paragraph {
+  margin-bottom: 25%;
+  display: block;
+}
+
+/* Hero-navigation: */
 
 .navigation {
   display: flex;
   justify-content: center;
-  gap: 5%;
+  gap: 10%;
 }
+
+button {
+  padding: 2% 4%;
+  background-color: #360a2bd3;
+  border: 1px solid #360a2b;
+  border-radius: 5px;
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.15);
+}
+
+.navigation a {
+  font-size: 0.7em;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+/* *************************************************************************************************************** */
 
 /* footer {
   background-color: #360a2b;
