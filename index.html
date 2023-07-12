@@ -10,9 +10,47 @@
   <body>
     <header>
       <div class="hero-section">
-        <div class="hero-image-container"></div>
+        <div class="hero-image-container">
+          <picture>
+            <source
+              media="(max-width:900px)"
+              srcset="/images/profile-image-me-small.jpeg"
+            />
+            <img
+              src="/images/profile-image-me-large.jpeg"
+              alt="Picture of
+                  Gabrielle"
+              class="image-me"
+              height="300px"
+              width="180px"
+            />
+          </picture>
+        </div>
         <div class="hero-content-container">
-          <!-- Name+surname+career title -->
+          <div class="intro-content">
+            <h1>Gabrielle Naidoo</h1>
+            <p>WEB DEVELOPER</p>
+            <br />
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
+              hic fuga dolores veniam. Nobis cum a pariatur esse tempora. Minus
+              nisi harum aliquam soluta quam doloribus alias, repellat voluptas
+              beatae?
+            </p>
+          </div>
+          <div class="navigation">
+            <button class="btn contact-btn">
+              <a href="#contact">Get in touch</a>
+            </button>
+            <button class="btn github-btn">
+              <a
+                href="https://github.com/GabrielleNaidoo"
+                target="_blank"
+                class="github-link"
+                >Check out my GitHub</a
+              >
+            </button>
+          </div>
           <!-- Intro paragraph -->
           <!-- Nav buttons("Get in touch"+"Checkout my gitHub->") -->
         </div>
@@ -38,7 +76,7 @@
       </div>
     </main>
     <footer>
-      <div class="contact-section-container">
+      <div class="contact-section-container" id="contact">
         <div class="contact-form-container">
           <!-- Different sections of form -->
         </div>
