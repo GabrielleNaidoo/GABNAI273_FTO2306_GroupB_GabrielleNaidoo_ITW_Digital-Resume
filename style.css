@@ -85,7 +85,8 @@ img {
 
 .intro-paragraph {
   font-size: 1.1rem;
-  margin-bottom: 7.5rem;
+  margin-top: 3rem;
+  margin-bottom: 9rem;
   color: #000000;
 }
 
@@ -192,6 +193,7 @@ li {
   flex-direction: column;
   position: center;
   text-align: center;
+  margin-bottom: 2rem;
 
   /* Background: */
   background-color: #f7d7cc42;
@@ -255,6 +257,7 @@ input:focus:invalid {
 
 .contact-detail {
   display: flex;
+  align-items: center;
   gap: 1.2rem;
 }
 
@@ -271,10 +274,11 @@ input:focus:invalid {
 }
 
 .contact-detail-email {
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-bottom: 4rem;
   display: flex;
-  align-items: center;
+
+  justify-content: center;
   gap: 1.2rem;
 }
 
