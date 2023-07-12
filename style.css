@@ -174,13 +174,75 @@ li {
 } */
 
 /* *************************************************************************************************************** */
+.contact-section-container {
+  margin-top: 20%;
+}
+.contact-form-container {
+  margin-bottom: 25%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  position: center;
+  text-align: center;
+
+  /* Background: */
+  background-color: #f7d7cc42;
+  border: 1px solid #360a2b;
+  border-radius: 5px;
+  padding: 5% 10%;
+}
+
+label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+input,
+select,
+option,
+textarea {
+  display: block;
+  margin-bottom: 1rem;
+  margin-top: 0.4rem;
+  text-align: center;
+  padding: 0.2rem 0.2rem;
+  border: 1px solid #360a2b;
+}
+
+textarea {
+  margin-bottom: 1.5rem;
+}
+
+.submit-btn {
+  padding: 3% 6%;
+  color: #faf9f6;
+  background-color: #360a2ba6;
+  border: 1px solid #360a2b;
+  border-radius: 5px;
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.15);
+}
+
+/* Form validation: */
+input:invalid,
+select:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+input:focus:invalid,
+input:focus:invalid {
+  box-shadow: none;
+}
 /* *************************************************************************************************************** */
 .contact-details-container {
   background-color: #360a2b8b;
   border-radius: 5px;
-  padding: 10% 10%;
+  padding: 5% 10%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1rem;
 }
 
@@ -202,7 +264,8 @@ li {
 }
 
 .contact-detail-email {
-  margin-top: 10%;
+  margin-top: 20%;
+  margin-bottom: 20%;
   display: flex;
   gap: 1.2rem;
 }
