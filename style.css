@@ -10,10 +10,52 @@ body {
   background-color: #e7e3e4;
 }
 
-.hero-section {
-  display: flex;
+main,
+footer {
+  padding-left: 10%;
+  padding-right: 10%;
+}
 
-  /* background-image: */
+.hero-section {
+  /* For layout: */
+  display: flex;
+  flex-direction: column;
+
+  /* for background-image: */
+  height: 100vh;
+  background: #360a2b url("/images/hero-background-image.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: cover;
+}
+
+.hero-image-container {
+}
+
+img {
+  /* For size and appearance of image: */
+  height: 50%;
+  width: 50%;
+  border-radius: 100%;
+
+  /* To center image: */
+  display: block;
+  margin: 20% auto;
+}
+
+.hero-content-container {
+  padding: 5%;
+}
+
+.intro-content {
+  text-align: center;
+  font-size: 0.75em;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
 }
 
 /* footer {
