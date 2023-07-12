@@ -117,76 +117,82 @@
       </div>
     </main>
     <footer>
-      <div class="contact-section-container" id="contact">
-        <div class="contact-form-container">
-          <form class="form">
-            <label for="name"> Name:</label>
-            <input type="text" name="name" id="name" required />
-            <label for="email-address">Email-address:</label>
-            <input
-              type="email"
-              name="email-address"
-              id="email-address"
-              required
-            />
-            <label for="email-subject">Email Subject:</label>
-            <select name="_subject" id="email-subject" required>
-              <option value="I am interested in hiring you">
-                I am interested in hiring you
-              </option>
-              <option value="I would like to ask you a question">
-                I would like to ask you a question
-              </option>
-              <option
-                value="I would like to give you feedback on your digital resume"
+      <div class="get-in-touch">
+        <h2 class="main-heading">GET IN TOUCH</h2>
+        <div class="contact-section-container" id="contact">
+          <div class="contact-form-container">
+            <form class="form">
+              <label for="name"> Name:</label>
+              <input type="text" name="name" id="name" required />
+              <label for="email-address">Email-address:</label>
+              <input
+                type="email"
+                name="email-address"
+                id="email-address"
+                required
+              />
+              <label for="email-subject">Email Subject:</label>
+              <select name="_subject" id="email-subject" required>
+                <option value="I am interested in hiring you">
+                  I am interested in hiring you
+                </option>
+                <option value="I would like to ask you a question">
+                  I would like to ask you a question
+                </option>
+                <option
+                  value="I would like to give you feedback on your digital resume"
+                >
+                  I would like to give you feedback on your digital resume
+                </option>
+                <option value="other">
+                  other: please add additional information in the text block
+                  below
+                </option>
+              </select>
+              <label for="additional-information"
+                >Additional Information:</label
               >
-                I would like to give you feedback on your digital resume
-              </option>
-              <option value="other">
-                other: please add additional information in the text block below
-              </option>
-            </select>
-            <label for="additional-information">Additional Information:</label>
-            <textarea
-              name="additional-information"
-              id="additional-information"
-              rows="6"
-              cols="20"
-            ></textarea>
-            <input
-              type="submit"
-              value="SUBMIT"
-              name="submit"
-              class="btn submit-btn"
-            />
-          </form>
+              <textarea
+                name="additional-information"
+                id="additional-information"
+                rows="6"
+                cols="20"
+              ></textarea>
+              <input
+                type="submit"
+                value="SUBMIT"
+                name="submit"
+                class="btn submit-btn"
+              />
+            </form>
+          </div>
+          <div class="contact-details-container">
+            <div class="contact-detail">
+              <ion-icon
+                name="logo-linkedin"
+                class="icon icon-linkedin"
+              ></ion-icon>
+              <a
+                href="https://www.linkedin.com/in/gabrielle-naidoo-a27916245/"
+                target="_blank"
+                class="link linkedin-link"
+                >LinkedIn</a
+              >
+            </div>
+            <div class="contact-detail">
+              <ion-icon name="logo-github" class="icon icon-github"></ion-icon>
+              <a
+                href="https://github.com/GabrielleNaidoo"
+                target="_blank"
+                class="link github-link"
+                >GitHub</a
+              >
+            </div>
+          </div>
         </div>
-        <div class="contact-details-container">
-          <div class="contact-detail">
-            <ion-icon
-              name="logo-linkedin"
-              class="icon icon-linkedin"
-            ></ion-icon>
-            <a
-              href="https://www.linkedin.com/in/gabrielle-naidoo-a27916245/"
-              target="_blank"
-              class="link linkedin-link"
-              >LinkedIn</a
-            >
-          </div>
-          <div class="contact-detail">
-            <ion-icon name="logo-github" class="icon icon-github"></ion-icon>
-            <a
-              href="https://github.com/GabrielleNaidoo"
-              target="_blank"
-              class="link github-link"
-              >GitHub</a
-            >
-          </div>
-          <div class="contact-detail">
-            <ion-icon name="mail-outline" class="icon icon-email"></ion-icon>
-            <p class="email-details">naidoogabrielle2@gmail.com</p>
-          </div>
+        <div class="contact-detail-email">
+          <ion-icon name="mail-outline" class="icon icon-email"></ion-icon>
+          <p class="email-details">naidoogabrielle2@gmail.com</p>
         </div>
       </div>
     </footer>

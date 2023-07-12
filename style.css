@@ -8,6 +8,7 @@
 
 body {
   background-color: #e7e3e4;
+  color: #28282b;
 }
 
 main,
@@ -22,11 +23,12 @@ footer {
   /* For layout: */
   display: flex;
   flex-direction: column;
+  padding-bottom: 1rem;
 
   /* for background-image: */
   height: 100vh;
   background-image: linear-gradient(
-      rgba(255, 255, 255, 0.442),
+      rgba(255, 255, 255, 0.665),
       rgba(255, 255, 255, 0.111)
     ),
     url("/images/hero-background-image.jpg");
@@ -44,8 +46,8 @@ footer {
 
 img {
   /* For size and appearance of image: */
-  height: 50%;
-  width: 40%;
+  height: 60%;
+  width: 50%;
   border-radius: 15%;
   box-shadow: -0.2rem 1.8rem 3.4rem rgba(0, 0, 0, 0.15);
   filter: brightness(110%);
@@ -83,8 +85,8 @@ img {
 
 .intro-paragraph {
   font-size: 1.1rem;
-  margin-bottom: 40%;
-  margin-top: 10%;
+  margin-bottom: 60%;
+  color: #000000;
 }
 
 /* Hero-navigation: */
@@ -103,13 +105,13 @@ img {
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.15);
 }
 
-/* !!!Style hover state */
+/* Style hover state */
 
 .navigation a {
   font-size: 0.75rem;
   font-weight: bold;
   text-decoration: none;
-  color: black;
+  color: #faf9f6;
 }
 
 /* *************************************************************************************************************** */
@@ -138,7 +140,6 @@ img {
 
 .section-container {
   background-color: #360a2b8b;
-  /* border: 1px solid #360a2b; */
   border-radius: 5px;
   box-shadow: -0.2rem 1.8rem 3.4rem rgba(0, 0, 0, 0.15);
   padding: 2rem 2rem;
@@ -146,7 +147,7 @@ img {
 }
 
 .heading-container {
-  border-bottom: 0.5px solid rgba(0, 0, 0, 0.618);
+  border-bottom: 0.5px solid #faf9f64f;
   margin-bottom: 2.5rem;
 }
 
@@ -154,18 +155,59 @@ img {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
   text-align: center;
+  color: #faf9f6;
 }
 
 .section-list {
   font-size: 1rem;
   list-style: circle;
+  color: #faf9f6;
 }
 
 li {
-  line-height: 1.2rem;
-  margin-bottom: 0.5rem;
+  line-height: 1.4rem;
+  margin-bottom: 0.8rem;
 }
 
 /* footer {
   background-color: #360a2b;
 } */
+
+/* *************************************************************************************************************** */
+/* *************************************************************************************************************** */
+.contact-details-container {
+  background-color: #360a2b8b;
+  border-radius: 5px;
+  padding: 10% 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-detail {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.contact-detail a {
+  font-size: 0.88rem;
+  text-decoration: none;
+  color: #faf9f6;
+  line-height: 1.2;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.contact-detail-email {
+  margin-top: 10%;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.contact-detail-email p {
+  display: inline-block;
+  font-size: 0.88rem;
+}
