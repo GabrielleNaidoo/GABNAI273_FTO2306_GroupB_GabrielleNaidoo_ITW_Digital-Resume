@@ -1,9 +1,8 @@
 * {
   padding: 0;
   margin: 0;
-
-  /* Remember to change font family to something better */
-  font-family: ;
+  font-family: Georgia;
+  line-height: 1.4rem;
 }
 
 body {
@@ -79,7 +78,7 @@ img:hover {
 
 .intro-content h1 {
   margin-bottom: 0.2rem;
-  font-size: 1.8rem;
+  font-size: 1.65rem;
 }
 
 .my-name {
@@ -94,7 +93,7 @@ img:hover {
 }
 
 .intro-paragraph {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-top: 3rem;
   margin-bottom: 9rem;
   color: #000000;
@@ -105,11 +104,12 @@ img:hover {
 .navigation {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 1.8rem;
 }
 
 .btn {
-  padding: 0.8rem 0.4rem;
+  padding: 0.8rem 0.6rem;
   background-color: #360a2ba6;
   border: 1px solid #360a2b;
   border-radius: 5px;
@@ -126,6 +126,7 @@ img:hover {
 .navigation a,
 .navigation a:link,
 .navigation a:visited {
+  font-family: sans-serif;
   font-size: 0.75rem;
   font-weight: bold;
   text-decoration: none;
@@ -151,7 +152,7 @@ img:hover {
 }
 
 .main-heading {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   text-align: center;
   margin-bottom: 5rem;
 }
@@ -176,7 +177,7 @@ img:hover {
 }
 
 .section-heading {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-bottom: 1.5rem;
   text-align: center;
   color: #faf9f6;
@@ -192,7 +193,6 @@ img:hover {
 }
 
 li {
-  line-height: 1.4rem;
   margin-bottom: 0.8rem;
 }
 
@@ -225,14 +225,14 @@ li {
   background-color: #f7d7cc42;
   border: 1px solid #360a2b;
   border-radius: 5px;
-  padding: 2rem 2rem;
+  padding: 1.5rem 1.5rem;
 }
 
 label {
   font-size: 0.9rem;
   font-weight: bold;
   line-height: 1.2;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.3rem;
 }
 
 input,
@@ -271,6 +271,7 @@ input:focus:invalid {
   box-shadow: none;
 }
 /* *************************************************************************************************************** */
+
 .contact-details-container {
   background-color: #360a2b8b;
   border-radius: 5px;
@@ -281,10 +282,20 @@ input:focus:invalid {
   gap: 1rem;
 }
 
+.contact-section-container {
+  margin-bottom: 2rem;
+}
+
 .contact-detail {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1.2rem;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
 }
 
 .link,
@@ -314,4 +325,11 @@ input:focus:invalid {
 
 .contact-detail-email p {
   font-size: 0.88rem;
+}
+
+/* *************************************************************************************************************** */
+/* Media queries: */
+
+/* Mobile: */
+@media only screen and (max-width: 600px) {
 }
