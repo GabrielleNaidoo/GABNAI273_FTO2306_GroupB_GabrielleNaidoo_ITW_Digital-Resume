@@ -56,6 +56,16 @@ img {
   margin: 2.5rem auto;
 }
 
+img:hover {
+  transform: rotate(360deg);
+  transition-duration: 1s;
+  background-color: grey;
+  animation-name: animatedLogo;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: alternate;
+}
+
 /* Hero-content: */
 
 .hero-content-container {
@@ -67,14 +77,14 @@ img {
   text-align: center;
 }
 
+.intro-content h1 {
+  margin-bottom: 0.2rem;
+  font-size: 1.8rem;
+}
+
 .my-name {
   border-bottom: 0.5px solid rgba(0, 0, 0, 0.308);
   margin-bottom: 0.25rem;
-}
-
-.intro-content h1 {
-  margin-bottom: 0.2rem;
-  font-size: 1.9rem;
 }
 
 .career-title {
@@ -99,20 +109,34 @@ img {
 }
 
 .btn {
-  padding: 0.6rem 1.2rem;
+  padding: 0.8rem 0.4rem;
   background-color: #360a2ba6;
   border: 1px solid #360a2b;
   border-radius: 5px;
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.15);
+
+  transition: all 0.2s;
 }
 
-/* Style hover state */
+.btn:hover {
+  transform: scale(1.1);
+  background-color: #360a2b;
+}
 
-.navigation a {
+.navigation a,
+.navigation a:link,
+.navigation a:visited {
   font-size: 0.75rem;
   font-weight: bold;
   text-decoration: none;
   color: #faf9f6;
+
+  transition: all 0.2s;
+}
+
+.navigation a:hover,
+.navigation a:active {
+  transform: scale(1.1);
 }
 
 /* *************************************************************************************************************** */
@@ -144,7 +168,6 @@ img {
   border-radius: 5px;
   box-shadow: -0.2rem 1.8rem 3.4rem rgba(0, 0, 0, 0.15);
   padding: 2rem 2rem;
-  padding-left: 2.5rem;
 }
 
 .heading-container {
@@ -163,6 +186,9 @@ img {
   font-size: 1rem;
   list-style: circle;
   color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 li {
@@ -261,24 +287,28 @@ input:focus:invalid {
   gap: 1.2rem;
 }
 
-.contact-detail a {
+.link,
+.link:link,
+.link:visited {
   font-size: 0.88rem;
   text-decoration: none;
   color: #faf9f6;
   line-height: 1.2;
+  transition: all 0.2s;
 }
 
-.icon {
-  width: 2rem;
-  height: 2rem;
+.link:hover,
+.link:active {
+  transform: scale(1.1);
+  color: #360a2b;
 }
 
 .contact-detail-email {
-  margin-top: 2rem;
   margin-bottom: 4rem;
   display: flex;
 
   justify-content: center;
+  align-items: center;
   gap: 1.2rem;
 }
 
