@@ -1,8 +1,6 @@
 /* *************************************************************************************************************** */
 /* Media queries: */
 
-/* Mobile: */
-
 @media only screen and (min-width: 500px) {
   /* Hero section */
   img {
@@ -67,7 +65,7 @@
   }
 
   .section-container {
-    padding: 3rem 2.5rem;
+    padding: 2rem 4rem;
   }
 
   .heading-container {
@@ -98,10 +96,6 @@
   }
 
   .form {
-    /* Background: */
-    background-color: #f7d7cc42;
-    border: 1px solid #360a2b;
-    border-radius: 5px;
     padding: 2rem 4rem;
   }
 
@@ -115,8 +109,9 @@
   input,
   select,
   option {
-    margin-bottom: 2.2rem;
+    margin-bottom: 2.25rem;
     padding: 0.4rem 0.2rem;
+    font-size: 0.8rem;
   }
 
   textarea {
@@ -126,9 +121,151 @@
 
   .submit-btn {
     padding: 1rem 1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
   }
 
   /* Contact details: */
+  .icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .link,
+  .link:link,
+  .link:visited {
+    font-size: 1.1rem;
+  }
+
+  .contact-detail-email p {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  /* Hero section */
+  img {
+    height: 13rem;
+    width: 12.8rem;
+    border-radius: 2rem;
+  }
+
+  .intro-content h1 {
+    margin-top: 0.8rem;
+    margin-bottom: 0.4rem;
+    font-size: 2.2rem;
+  }
+
+  .my-name {
+    margin-bottom: 0.3rem;
+  }
+
+  .career-title {
+    font-size: 1.05rem;
+  }
+
+  .intro-paragraph {
+    font-size: 1.35rem;
+    margin-top: 4rem;
+    margin-bottom: 9rem;
+  }
+
+  .navigation {
+    gap: 3rem;
+  }
+
+  .btn {
+    padding: 0.8rem 2rem;
+  }
+
+  .navigation a,
+  .navigation a:link,
+  .navigation a:visited {
+    font-size: 0.95rem;
+  }
+  /* ****************************************************************************** */
+  /* Main content section: */
+
+  .main-content-container {
+    /* Space between sections */
+    margin-top: 8rem;
+  }
+
+  .main-heading {
+    font-size: 1.65rem;
+  }
+
+  .main-content {
+    gap: 8rem;
+  }
+
+  .section-container {
+    padding: 3rem 6rem;
+  }
+
+  .heading-container {
+    margin-bottom: 2.8rem;
+  }
+
+  .section-heading {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .section-list {
+    font-size: 1.2rem;
+  }
+
+  li {
+    margin-bottom: 1.1rem;
+  }
+  /* ****************************************************************************** */
+  /* Get in touch section: */
+  .get-in-touch {
+    margin-top: 8rem;
+  }
+
+  .contact-form-container {
+    margin-bottom: 6rem;
+  }
+
+  label {
+    font-size: 1.3rem;
+    margin-bottom: 0.6rem;
+  }
+
+  input,
+  select,
+  option {
+    margin-bottom: 2.5rem;
+    padding: 0.6rem 0.2rem;
+    font-size: 1rem;
+  }
+
+  textarea {
+    padding: 0.4rem 0.2rem;
+    margin-bottom: 5rem;
+  }
+
+  .submit-btn {
+    padding: 1.2rem 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  /* Contact details: */
+  .icon {
+    width: 2.6rem;
+    height: 2.6rem;
+  }
+
+  .link,
+  .link:link,
+  .link:visited {
+    font-size: 1.3rem;
+  }
+
+  .contact-detail-email p {
+    font-size: 1.3rem;
+  }
 }

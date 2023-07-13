@@ -168,7 +168,7 @@ img:hover {
   background-color: #360a2b8b;
   border-radius: 5px;
   box-shadow: -0.2rem 1.8rem 3.4rem rgba(0, 0, 0, 0.15);
-  padding: 3rem 2rem;
+  padding: 3rem 3rem;
 }
 
 .heading-container {
@@ -190,6 +190,7 @@ img:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 li {
@@ -227,7 +228,7 @@ label {
   font-size: 0.9rem;
   font-weight: bold;
   line-height: 1.2;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.4rem;
 }
 
 input,
@@ -271,7 +272,7 @@ input:focus:invalid {
 .contact-details-container {
   background-color: #360a2b8b;
   border-radius: 5px;
-  padding: 1rem 2rem;
+  padding: 2rem 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -279,13 +280,12 @@ input:focus:invalid {
 }
 
 .contact-section-container {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .contact-detail {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 1.2rem;
 }
 
@@ -297,7 +297,7 @@ input:focus:invalid {
 .link,
 .link:link,
 .link:visited {
-  font-size: 0.88rem;
+  font-size: 0.9rem;
   text-decoration: none;
   color: #faf9f6;
   line-height: 1.2;
