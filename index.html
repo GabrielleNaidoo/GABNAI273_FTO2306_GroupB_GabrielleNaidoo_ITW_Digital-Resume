@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css" />
     <!-- Add favicon -->
     <title>Digital Resume- Gabrielle Naidoo</title>
   </head>
@@ -14,8 +15,12 @@
         <div class="hero-image-container">
           <picture>
             <source
-              media="(max-width:900px)"
+              media="(max-width:600px)"
               srcset="/images/profile-image-me-small.jpeg"
+            />
+            <source
+              media="(max-width:900px)"
+              srcset="/images/profile-image-me-medium.jpeg"
             />
             <img
               src="/images/profile-image-me-large.jpeg"
@@ -150,7 +155,7 @@
                 </option>
                 <option value="other">Other</option>
               </select>
-              <label for="additional-information"
+              <label for="additional-information" class="last"
                 >Additional Information:</label
               >
               <textarea

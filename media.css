@@ -1,0 +1,134 @@
+/* *************************************************************************************************************** */
+/* Media queries: */
+
+/* Mobile: */
+
+@media only screen and (min-width: 500px) {
+  /* Hero section */
+  img {
+    height: 11rem;
+    width: 10.8rem;
+    border-radius: 2rem;
+  }
+
+  .hero-content-container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .intro-content h1 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+    font-size: 1.8rem;
+  }
+
+  .my-name {
+    margin-bottom: 0.2rem;
+  }
+
+  .career-title {
+    font-size: 0.95rem;
+  }
+
+  .intro-paragraph {
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+  }
+
+  .navigation {
+    gap: 2.5rem;
+  }
+
+  .btn {
+    padding: 1rem 1rem;
+  }
+
+  .navigation a,
+  .navigation a:link,
+  .navigation a:visited {
+    font-size: 0.8rem;
+  }
+
+  /* ****************************************************************************** */
+  /* Main content section: */
+
+  .main-content-container {
+    /* Space between sections */
+    margin-top: 5rem;
+  }
+
+  .main-heading {
+    font-size: 1.4rem;
+  }
+
+  .main-content {
+    gap: 6rem;
+  }
+
+  .section-container {
+    padding: 3rem 2.5rem;
+  }
+
+  .heading-container {
+    margin-bottom: 2.8rem;
+  }
+
+  .section-heading {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .section-list {
+    font-size: 1.1rem;
+  }
+
+  li {
+    margin-bottom: 1rem;
+  }
+
+  /* ****************************************************************************** */
+  /* Get in touch section: */
+  .get-in-touch {
+    margin-top: 5rem;
+  }
+
+  .contact-form-container {
+    margin-bottom: 5rem;
+  }
+
+  .form {
+    /* Background: */
+    background-color: #f7d7cc42;
+    border: 1px solid #360a2b;
+    border-radius: 5px;
+    padding: 2rem 4rem;
+  }
+
+  label {
+    font-size: 1.05rem;
+    font-weight: bold;
+
+    margin-bottom: 0.5rem;
+  }
+
+  input,
+  select,
+  option {
+    margin-bottom: 2.2rem;
+    padding: 0.4rem 0.2rem;
+  }
+
+  textarea {
+    padding: 0.4rem 0.2rem;
+    margin-bottom: 5rem;
+  }
+
+  .submit-btn {
+    padding: 1rem 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  /* Contact details: */
+}

@@ -45,8 +45,8 @@ footer {
 
 img {
   /* For size and appearance of image: */
-  height: 9.8rem;
-  width: 10rem;
+  height: 10rem;
+  width: 9.8rem;
   border-radius: 2rem;
   box-shadow: -0.2rem 1.8rem 3.4rem rgba(0, 0, 0, 0.15);
   filter: brightness(110%);
@@ -87,7 +87,7 @@ img:hover {
 }
 
 .career-title {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   font-weight: bold;
   color: #360a2b;
 }
@@ -127,7 +127,7 @@ img:hover {
 .navigation a:link,
 .navigation a:visited {
   font-family: sans-serif;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: bold;
   text-decoration: none;
   color: #faf9f6;
@@ -168,7 +168,7 @@ img:hover {
   background-color: #360a2b8b;
   border-radius: 5px;
   box-shadow: -0.2rem 1.8rem 3.4rem rgba(0, 0, 0, 0.15);
-  padding: 2rem 2rem;
+  padding: 3rem 2rem;
 }
 
 .heading-container {
@@ -196,18 +196,14 @@ li {
   margin-bottom: 0.8rem;
 }
 
-/* footer {
-  background-color: #360a2b;
-} */
-
 /* *************************************************************************************************************** */
 .get-in-touch {
   margin-top: 6rem;
+  margin-bottom: 6rem;
 }
 
 .contact-section-container {
-  margin-top: 3rem;
-  margin-bottom: 6rem;
+  margin-bottom: 5rem;
 }
 
 .contact-form-container {
@@ -219,13 +215,12 @@ li {
   flex-direction: column;
   position: center;
   text-align: center;
-  margin-bottom: 2rem;
 
   /* Background: */
   background-color: #f7d7cc42;
   border: 1px solid #360a2b;
   border-radius: 5px;
-  padding: 1.5rem 1.5rem;
+  padding: 1.8rem 2rem;
 }
 
 label {
@@ -247,12 +242,13 @@ textarea {
 }
 
 textarea {
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 .submit-btn {
   padding: 1rem 1rem;
   font-size: 0.9rem;
+  font-weight: bold;
   color: #faf9f6;
   background-color: #360a2ba6;
   border: 1px solid #360a2b;
@@ -325,11 +321,4 @@ input:focus:invalid {
 
 .contact-detail-email p {
   font-size: 0.88rem;
-}
-
-/* *************************************************************************************************************** */
-/* Media queries: */
-
-/* Mobile: */
-@media only screen and (max-width: 600px) {
 }
