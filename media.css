@@ -143,7 +143,7 @@
     font-size: 1.1rem;
   }
 
-  .contact-detail-email p {
+  .contact-detail-email .link {
     font-size: 1.1rem;
   }
 }
@@ -285,7 +285,7 @@
     font-size: 1.3rem;
   }
 
-  .contact-detail-email p {
+  .contact-detail-email .link {
     font-size: 1.3rem;
   }
 }
@@ -432,7 +432,7 @@
     font-size: 1.6rem;
   }
 
-  .contact-detail-email p {
+  .contact-detail-email .link {
     font-size: 1.6rem;
   }
 }
@@ -586,7 +586,7 @@
     font-size: 1.8rem;
   }
 
-  .contact-detail-email p {
+  .contact-detail-email .link {
     font-size: 1.8rem;
   }
 }

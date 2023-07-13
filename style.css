@@ -319,6 +319,12 @@ input:focus:invalid {
   gap: 1.2rem;
 }
 
-.contact-detail-email p {
+.contact-detail-email .link {
+  color: #28282b;
   font-size: 0.88rem;
+}
+
+.contact-detail-email .link:hover,
+.contact-detail-email .link:active {
+  color: #360a2ba6;
 }
