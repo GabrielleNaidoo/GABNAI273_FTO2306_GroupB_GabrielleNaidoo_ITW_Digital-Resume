@@ -169,6 +169,11 @@ img:hover {
   border-radius: 5px;
   box-shadow: -0.2rem 1.8rem 3.4rem rgba(0, 0, 0, 0.15);
   padding: 3rem 3rem;
+  transition: all 0.3s;
+}
+
+.section-container:hover {
+  transform: scale(1.05);
 }
 
 .heading-container {
