@@ -57,7 +57,7 @@
   }
 
   .main-heading {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 
   .main-content {
@@ -73,12 +73,18 @@
   }
 
   .section-heading {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-bottom: 1.2rem;
   }
 
   .section-list {
     font-size: 1.1rem;
+  }
+
+  .list-header {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
   }
 
   li {
@@ -206,7 +212,7 @@
   }
 
   .section-container {
-    padding: 3rem 6rem;
+    padding: 2.5rem 5rem;
     margin-left: 5rem;
     margin-right: 5rem;
   }
@@ -216,12 +222,18 @@
   }
 
   .section-heading {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
   }
 
   .section-list {
     font-size: 1.2rem;
+  }
+
+  .list-header {
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
   }
 
   li {
@@ -386,6 +398,12 @@
     font-size: 1.5rem;
   }
 
+  .list-header {
+    font-size: 1.8rem;
+    margin-bottom: 3.5rem;
+    margin-top: 4.5rem;
+  }
+
   li {
     margin-bottom: 1.2rem;
   }
@@ -535,6 +553,11 @@
 
   .section-list {
     font-size: 1.5rem;
+  }
+  .list-header {
+    font-size: 1.85rem;
+    margin-bottom: 3.5rem;
+    margin-top: 4.5rem;
   }
 
   li {
