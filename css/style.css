@@ -93,7 +93,9 @@ img:hover {
 }
 
 .intro-paragraph {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  letter-spacing: 0.07rem;
   margin-top: 3rem;
   margin-bottom: 9rem;
   color: #000000;
@@ -189,6 +191,8 @@ img:hover {
 }
 
 .section-list {
+  text-align: left;
+  line-height: 1.3;
   font-size: 1rem;
   list-style: circle;
   color: #faf9f6;
