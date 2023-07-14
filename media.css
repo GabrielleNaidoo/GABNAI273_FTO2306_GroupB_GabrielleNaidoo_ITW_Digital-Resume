@@ -288,6 +288,13 @@
   .contact-detail-email .link {
     font-size: 1.3rem;
   }
+
+  /* Back to top button */
+  .back-to-top {
+    scale: 120%;
+    right: 1.5rem;
+    bottom: 1.5rem;
+  }
 }
 
 @media only screen and (min-width: 900px) {
@@ -438,6 +445,12 @@
 
   .contact-detail-email .link {
     font-size: 1.6rem;
+  }
+  /* Back to top button */
+  .back-to-top {
+    scale: 140%;
+    right: 1.2rem;
+    bottom: 1.6rem;
   }
 }
 
@@ -592,5 +605,12 @@
 
   .contact-detail-email .link {
     font-size: 1.8rem;
+  }
+
+  /* Back to top button */
+  .back-to-top {
+    scale: 140%;
+    right: 1.6rem;
+    bottom: 1.8rem;
   }
 }

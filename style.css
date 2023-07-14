@@ -227,6 +227,7 @@ li {
 
   /* Background: */
   background-color: #f7d7cc42;
+  box-shadow: -0.2rem 1.8rem 3.4rem rgba(0, 0, 0, 0.15);
   border: 1px solid #360a2b;
   border-radius: 5px;
   padding: 1.8rem 2rem;
@@ -335,4 +336,30 @@ input:focus:invalid {
 .contact-detail-email .link:hover,
 .contact-detail-email .link:active {
   color: #360a2ba6;
+}
+
+.back-to-top {
+  height: 2.2rem;
+  width: 2.2rem;
+  background-color: #360a2ba9;
+  padding: 0.4rem 0.4rem;
+  border-radius: 100%;
+
+  transition: all 0.3s;
+
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+}
+
+.back-to-top:hover {
+  transform: scale(1.1);
+}
+
+.back-to-top-icon {
+  height: 2rem;
+  width: 2rem;
+  color: #e7e3e4;
+  display: block;
+  margin: 0 auto;
 }
